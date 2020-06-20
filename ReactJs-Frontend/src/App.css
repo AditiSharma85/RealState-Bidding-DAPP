@@ -3,7 +3,7 @@ body {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(7px + 2vmin);
   color: white;
   box-sizing: border-box;
 }
@@ -27,7 +27,6 @@ body {
 }
 
 a {
-  /* color: #ffffff; */
   text-decoration: none;
 }
 
@@ -39,4 +38,90 @@ a {
   border-radius: 10px;
   cursor: pointer;
   text-align: center;
+}
+
+.bidding {
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  color: orange;
+}
+
+.list {
+  display: inline-block;
+}
+
+.title_address {
+  background-color: sienna;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.marketBadge {
+  width: 50%;
+  border-radius: 0px 30px 30px 0px;
+  text-align-last: center;
+  font-size: 0.7em;
+}
+
+.inMarket {
+  background-color: seagreen;
+}
+
+.outMarket {
+  background-color: tomato;
+}
+
+.container {
+  display: grid;
+}
+
+.tokenContainer {
+  border: 1px solid dimgray;
+}
+
+.tokenCard {
+  border: 1px solid white;
+  padding: 10px;
+  margin: 10px;
+  width: 30%;
+  height: 450px;
+  float: left;
+  border-radius: 10px;
+}
+
+.tokenCard button,
+.tokenCard input {
+  width: 100%;
+}
+
+.small-address {
+  font-size: 0.45em;
+  background-color: goldenrod;
+  color: black;
+  border-radius: 0px 30px 30px 0px;
+}
+
+#mintInput {
+  width: 25%;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+button,
+input {
+  border-radius: 5px;
 }
